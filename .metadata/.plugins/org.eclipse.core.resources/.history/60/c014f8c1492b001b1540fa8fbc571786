@@ -1,0 +1,29 @@
+package สตั้ม๙;
+
+import java.util.Scanner;
+public class Yichang {
+
+	public static void main(String[] args) {
+		double[] array = new double[50];
+		Scanner sc=new Scanner(System.in);
+		int a=1,n=0;
+		double sum=9,aver=0,num=0;
+		int i=0;
+	    while(sc.nextDouble() =='\s'	){//sc.useDelimiter("\s");
+//		if(sc.hasNextDouble()) {
+			   
+//			 num=sc.nextDouble();
+			 array[i] = sc.nextDouble();
+			   sum=sum+array[i];
+			   i++;
+			}
+//	    }
+		aver=sum/i;
+		System.out.println(sum);
+		System.out.println(aver);
+		System.out.println(i);
+		}
+      
+	}
+
+

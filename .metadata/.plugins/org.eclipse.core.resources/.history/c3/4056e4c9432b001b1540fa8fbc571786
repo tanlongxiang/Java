@@ -1,0 +1,23 @@
+package สตั้ม๙;
+
+import java.util.Scanner;
+public class Yichang {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a=0;
+		double sum=0,aver=0,num=0;
+		//while( sc.hasNextDouble()) {
+		for(int i=0;i<=10;i++) {
+		a++;
+			 num=sc.nextDouble();
+			sum=sum+num;
+			}
+		aver=sum/a;
+		System.out.println(sum);
+		System.out.println(aver);
+		}
+      
+	}
+
+

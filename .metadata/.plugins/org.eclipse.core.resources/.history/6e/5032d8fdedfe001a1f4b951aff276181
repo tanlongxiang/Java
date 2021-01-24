@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Temp {
+
+	public static void main(String[] args) {
+	System.out.println() ;
+	 Scanner temp =new Scanner(System.in);
+	   Float f =temp.nextFloat();
+	   Float c= 58*f*9f;
+	   System.out.println(+c) ;
+
+	}
+
+}

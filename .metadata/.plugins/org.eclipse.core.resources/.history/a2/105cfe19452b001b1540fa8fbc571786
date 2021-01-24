@@ -1,0 +1,33 @@
+package 实验六;
+
+import java.util.Scanner;
+public class Yichang {
+
+	public static void main(String[] args) {
+		int nextValue;
+		int sum=0;
+		Scanner r = new Scanner(System.in);//创建键盘读取数据对象Scanner
+		r.useDelimiter("\s");//设置空格为数据的分隔符
+		while(r.hasNextInt()){
+		nextValue = r.nextInt();//读取从键盘输入的一个整数
+		sum+=nextValue;
+
+		}
+		System.out.println("sum="+sum);
+		r.close();
+//		Scanner sc=new Scanner(System.in);
+//		int i=0,a=1;
+//		double sum=0,aver=0,num=0;
+//		while( ) {
+//			    i++;
+//			 num=sc.nextDouble();
+//			sum=sum+num;
+//			}
+//		aver=sum/i;
+//		System.out.println(sum);
+//		System.out.println(aver);
+		}
+      
+	}
+
+
